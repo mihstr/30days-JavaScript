@@ -26,6 +26,8 @@ html {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10+ */
     user-select: none;
     cursor: pointer;
     transition: all 0.2s;
